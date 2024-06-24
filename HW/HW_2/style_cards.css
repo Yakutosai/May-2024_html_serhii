@@ -1,0 +1,13 @@
+span{
+    font-size: 40px;
+    background-color: gray;
+    border: 2px  ;
+    margin: 5px;
+}
+.red{
+    color: red;
+
+}
+.black{
+    color: black;
+}

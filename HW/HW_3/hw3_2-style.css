@@ -1,0 +1,25 @@
+.flex32{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background:rgb(34,193,195) ;
+    height: 800px;
+    flex-wrap: wrap;
+}
+.weather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border: 2px solid ;
+    background-color: rgba(169,41,195,0.63);
+    flex-direction: column;
+
+}
+p{
+margin: 7px;
+
+
+}

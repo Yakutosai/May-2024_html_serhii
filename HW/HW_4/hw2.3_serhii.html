@@ -4,25 +4,65 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        div{
+
+        .box60{
+            display: flex;
+            height: 60vh;
+        background-color: darkturquoise;
+            justify-content: center;
+            align-items: center;
+        }
+        .flex{
+           display: flex;
+            justify-content: space-between;
+            margin: 5px;
+
+        }
+        .inflex{
+            height: 40vh;
+            width: 25vw;
+            /*margin: 5vw;*/
+            background-color: #00777c;
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+        .box90{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
             background-color: darkturquoise;
         }
-        .box60{
-            height: 60vh;
-
+        .box60 h2{
+            font-size: 50px;
         }
+        .inflex h2{
+            font-size:30px ;
+        }
+        .box90 h2{
+            font-size: 50px;
+        }
+
     </style>
 </head>
 <body>
-<div class="box60"></div>
-<div class="flex">
-    <div class="inflex"></div>
-    <div class="inflex"></div>
-    <div class="inflex"></div>
+<div class="box60">
+    <h2>Widgets</h2>
 </div>
-<div class="box90"></div>
+<div class="flex">
+    <div class="inflex">
+        <h2>Big Widgets</h2>
+    </div>
+    <div class="inflex">
+        <h2>Bigger Widgets</h2>
+    </div>
+    <div class="inflex">
+        <h2>Huge Widgets</h2>
+    </div>
+</div>
+<div class="box90">
+    <h2>Contact</h2>
+</div>
 </body>
 </html>

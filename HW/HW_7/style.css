@@ -70,11 +70,13 @@ button {
 
 }
 
-iframe {
-    margin: 105px 282px 0 281px;
-    background-size: cover;
+section iframe{
 
+        margin: 105px 282px 0 281px;
+        background-size: cover;
 }
+
+
 .content{
     display: flex;
     justify-content: center;
@@ -89,7 +91,7 @@ iframe {
     font-weight: 400;
 }
 .end_section{
-    min-height: 10vh;
+    min-height: 100vh;
     background-image: url("photo/Rectangle20.png");
     background-size: cover;
 

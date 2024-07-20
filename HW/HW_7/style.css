@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "KoHo", sans-serif;
+    font-weight: 400;
+}
+
+.top-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("photo/image5.png");
+    background-size: cover;
+}
+
+div img {
+    width: 530px;
+    height: 393px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 530px;
+    height: 392px;
+    background: #FAF9F7;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    flex-direction: column;
+    gap: 44px;
+}
+
+.Lorem-ipsum {
+    font-size: 45px;
+}
+
+.Lorem-ipsum-dolor {
+    font-size: 25px;
+}
+
+button {
+    width: 409px;
+    height: 76px;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+}
+
+
+
+
+.center_section {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("photo/Rectangle20.png");
+    flex-direction: column;
+    height: 100vh;
+
+
+}
+
+iframe {
+    margin: 105px 282px 0 281px;
+    background-size: cover;
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 949px;
+    height: 183px;
+    margin:110px 282px 87px 281px ;
+    color: #000;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+}
+.end_section{
+    min-height: 10vh;
+    background-image: url("photo/Rectangle20.png");
+    background-size: cover;
+
+}

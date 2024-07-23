@@ -47,6 +47,7 @@ main ul{
  }
 .list{
     width: 336px;
+    margin: 43px;
 }
 .list h1{
     color: #000;
@@ -62,9 +63,14 @@ main ul{
     color: #AD0306;
     font-size: 36px;
     font-weight: 400;
+    padding: 37px 0;
 }
 .list p{
-
+    color: #000;
+    -webkit-text-stroke-width: 0.10000000149011612px;
+    -webkit-text-stroke-color: #000;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 
